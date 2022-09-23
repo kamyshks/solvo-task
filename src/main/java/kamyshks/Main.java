@@ -59,7 +59,7 @@ public class Main {
             }
         } catch (ParseException| NullPointerException | NumberFormatException e) {
             System.out.println("Incorrect command parameters");
-            formatter.printHelp("Balance client", options);
+            formatter.printHelp("Port", options);
             System.exit(1);
         }
     }
